@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height:100%;
+    max-width: 100%;  
+}
+
+body { 
+    padding: 0;
+    margin: 0;
+    background: url(./background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+#content {
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    
+}
+
+
+#footer {
+    text-align: center;
+    margin: 24px 0px 0px 0px;
+    background-color:rgba(136, 122, 122, 0.5);
+}
+
+a {
+    margin-top: 8px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* HOMEPAGE */
+
+
+
+#header {
+    margin: 0;
+    background-color:rgba(182, 158, 158, 0.7);
+} 
+
+#homeTitle {
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #070707;
+    white-space: pre;
+}
+
+button {
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 16px;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow:0 2px rgb(236, 229, 229);
+}
+
+#menuButton {
+    background-color: palegreen;
+}
+
+#contactButton {
+    background-color: white;
+}
+
+#homeButton {
+    background-color: rgba(248, 42, 42, 0.979);
+}
+
+
+.active { 
+    border: 2px solid white;
+}
+
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+.pages {
+    align-self: flex-end;
+    text-align: center;
+    border-radius: 8px;
+    background-color:rgba(182, 158, 158, 0.9);
+    max-width: 600px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome {
+    margin: 8px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #070707;
+    white-space: pre-wrap;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* MENU */
+
+#menuItem {
+    margin-top: 8px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menuText {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #070707;
+    font-family: 'Playfair Display', serif;
+}
+
+/* CONTACT */
+
+
+
+.contactText  {
+
+    margin: 8px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px #070707
+}

@@ -1,0 +1,17 @@
+{
+  "name": "odin_restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.7",
+    "style-loader": "^3.1.0",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
